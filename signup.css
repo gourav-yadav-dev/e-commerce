@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+}
+.signup-logo{
+    /* border:2px solid red; */
+    font-size:30px;
+    width:fit-content;
+    margin:auto;
+    margin-top:2%;
+    /* align-items: center; */
+}
+.signup_card_container{
+    border:9px solid whitesmoke;
+    width:25%;
+    height:35rem;
+    margin:auto;
+    margin-top: 2%;
+}
+.create_heading{
+    margin:2% 0% 0% 3%;
+}
+.form_container{
+    /* border:2px solid red; */
+    margin:3% 0% 0% 3%;
+    color:black;
+    font-weight: 700;
+    /* line-height: 2; */   
+    /* display: flex; */
+    /* vertical-align: auto; */
+    
+}
+.name_block,.number_block,.password_block,.instruction_block,.verfiy_btn{
+    margin-top:10%
+}
+.verfiy_btn{
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding:2% 5% 2% 5%;
+    border-radius:5px;
+    background-color: #f9c46ed1;
+color:black;
+}
+.name_block>input,.number_block>input,.password_block>input{
+    padding:2% 31% 2% 5%;
+    
+}
+.sign_in_container{
+    margin:5% 0% 0% 3%;
+}
+.sign_in_container>a{
+    text-decoration: none;
+    color:#0066C0;
+}
+.sign_in_container>a:hover{
+color:red;
+}
+.policy{
+    border:2px solid white;
+    height:5rem;
+    /* display:flex;
+    justify-content: center; */
+    width:max-content;
+    margin:auto;
+}
+.policy_list{
+    display:flex;
+    padding:4%;      
+}
+.policy_list>li>a{
+    text-decoration: none;
+    color:#0066C0
+}
+.policy_list>li>a:hover{
+    color:red;
+}
+.error_msg{
+    display:none
+}
+.msg_error_js{
+    display:block;
+    font-size:15px;
+    color:red;
+}
+.error_msg_no{
+    display:none
+}
